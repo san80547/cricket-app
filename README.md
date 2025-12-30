@@ -96,23 +96,7 @@ Firestore Database
 
 Replace the firebaseConfig object in the script
 
-📂 Firebase Firestore Structure
-videos (collection)
- ├── videoId (document)
- │    ├── src
- │    ├── description
- │    ├── userId
- │    ├── userEmail
- │    ├── likes [array]
- │    ├── commentCount
- │    └── timestamp
- │
- │    └── comments (subcollection)
- │         ├── commentId
- │         │    ├── text
- │         │    ├── userId
- │         │    ├── userEmail
- │         │    └── timestamp
+
 
 🔐 Authentication
 
